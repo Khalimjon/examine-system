@@ -1,4 +1,4 @@
-export enum GradeStatusEnum{
-    Failed = "Failed",
-    Passed = "Passed"
+export enum GradeStatusEnum {
+  Failed = 'Failed',
+  Passed = 'Passed',
 }

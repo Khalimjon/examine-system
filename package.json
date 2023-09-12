@@ -7,7 +7,8 @@
     "build": "rimraf ./build && tsc",
     "watch": "nodemon src/main.ts",
     "start": "rimraf ./build && tsc && node -r dotenv/config build/main.js",
-    "dev": "ts-node -r dotenv/config src/main.ts"
+    "dev": "ts-node -r dotenv/config src/main.ts",
+    "prettier": "prettier --write {src,test}/**/*.ts"
   },
   "keywords": [],
   "author": {
