@@ -1,17 +1,17 @@
-import {BaseSchema} from "./general";
-import {prop} from "@typegoose/typegoose";
-import {Types} from "mongoose";
+import { BaseSchema } from './general';
+import { prop } from '@typegoose/typegoose';
+import { Types } from 'mongoose';
 
-export class AppliedTaskSchema extends BaseSchema{
-    @prop()
-    userId?: Types.ObjectId;
+export class AppliedTaskSchema extends BaseSchema {
+  @prop()
+  userId?: Types.ObjectId;
 
-    @prop()
-    groupId?: Types.ObjectId;
+  @prop()
+  groupId?: Types.ObjectId;
 
-    @prop()
-    taskId?: Types.ObjectId
+  @prop()
+  taskId?: Types.ObjectId;
 
-    @prop()
-    sourceCodeLink?: string
+  @prop()
+  sourceCodeLink?: string;
 }
